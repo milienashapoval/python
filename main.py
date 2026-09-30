@@ -18,20 +18,6 @@ if __name__ == '__main__':
 
 
 
-a = 6
-b = 8
-total = 14
-print("6 + 8 = 14")
-
-a = 8
-b = 6
-total = 2
-print("8 - 6 = 2")
-
-a = 8
-b = 6
-total = 48
-print(" 8 * 6 = 48")
 
 
 
