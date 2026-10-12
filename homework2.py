@@ -23,3 +23,14 @@ h = float(input("the height of the triangle:"))
 A = 0.5 * a * h
 
 print(f"the area of the triangle: {A}cm^2")
+
+###next task
+
+digit1 = input("the first digit:")
+digit2 = input("the second digit:")
+digit3 = input("the third digit:")
+digit4 = input("the fourth digit:")
+
+result = int(digit1 + digit2 + digit3 + digit4)
+
+print(f"the answer is: {result}")
