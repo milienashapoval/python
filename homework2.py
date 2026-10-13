@@ -4,16 +4,19 @@ centimeters = 100
 decimeters = 10
 milimeters = 1000
 miles = 1609.34
+kilometers = 1000
 
 cm = meters * centimeters
 dm = meters / decimeters
 mm = meters * milimeters
 mi = meters / miles
+km = meters / kilometers
 
 print(f"the amount of meters in centimeters: {cm}cm")
 print(f"the amount of meters in decimeters: {dm}dm")
 print(f"the amount of meters in milimeters: {mm}mm")
 print(f"the amount of meters in miles: {mi}mi")
+print(f"the amount of meters in kilometers: {km}km")
 
 ###next task
 
