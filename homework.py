@@ -1,4 +1,4 @@
-a = int(input("a: 6"))
-b = int(input("h: 9"))
+a = int(input("a:"))
+b = int(input("b:"))
 
-print(f"{a} * {h} = {a * b}")
+print(f"{a} * {b} = {a * b}")
