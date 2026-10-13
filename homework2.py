@@ -25,7 +25,7 @@ h = float(input("the height of the triangle:"))
 
 A = 0.5 * a * h
 
-print(f"the area of the triangle: {A}cm^2")
+print(f"the area of the triangle: {A}cm²")
 
 ###next task
 
