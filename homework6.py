@@ -12,3 +12,27 @@ if product == 1:
 else:
     print(product)
 #task2
+a = int(input("input a digit/number:"))
+n = int(input("input an exponent:"))
+result = 1
+for i in range(n):
+    result *= a
+    print(result)
+
+#task3
+
+a = int(input("input the first digit:"))
+b = int(input("input the second digit:"))
+c = 1
+for i in range(a,b+1):
+    if i%2==0:
+        c *= i
+        print(c)
+if  i%2!=0:
+        c += i
+        print(c)
+if i%9==0:
+        c *= i
+        print(c)
+
+
