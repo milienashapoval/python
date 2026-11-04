@@ -19,3 +19,8 @@ for i in num:
 a = int(input("input the length of the square:"))
 b = "#"
 c = "ß"
+result = b * a
+result2 = c * a
+for i in range (1):
+    print(result)
+    print(result2)
