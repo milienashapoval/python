@@ -17,10 +17,13 @@ for i in num:
 #task2
 
 a = int(input("input the length of the square:"))
-b = "#"
-c = "ß"
+b = "°"
+c = "."
 result = b * a
 result2 = c * a
 for i in range (1):
-    print(result)
-    print(result2)
+    print(result + result2 + result + result2 + result)
+    print(result2 + result + result2 + result + result2)
+    print(result + result2 + result + result2 + result)
+    print(result2 + result + result2 + result + result2)
+    print(result + result2 + result + result2 + result)
