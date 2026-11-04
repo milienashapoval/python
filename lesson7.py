@@ -18,7 +18,7 @@ for i in num:
 
 a = int(input("input the length of the square:"))
 b = "°"
-c = "."
+c = "*"
 result = b * a
 result2 = c * a
 for i in range (1):
@@ -27,3 +27,16 @@ for i in range (1):
     print(result + result2 + result + result2 + result)
     print(result2 + result + result2 + result + result2)
     print(result + result2 + result + result2 + result)
+
+#task3
+
+n = int(input("input n:"))
+for i in range(n, 0, -1):
+    a = n - i
+    print(" " * a, end="")
+    b = 1
+    while b <= i:
+        print(b, end="")
+        b += 1
+    print()
+
