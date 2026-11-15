@@ -44,9 +44,41 @@ elif answer == "g":
         print(space + stars)
         i += 1
 elif answer == "zh":
-    i = 1
-    while i < 6:
-        space = " " * (6 - i)
+    for i in range(5):
+        for j in range(5):
+            if j <= i and i + j <= 5 - 1:
+                print("*", end=" ")
+            else:
+                print(" ", end=" ")
+        print()
+elif answer == "z":
+    for i in range(5):
+        for j in range(5):
+            if j >= i and i + j >= 5 - 1:
+                print("*", end=" ")
+            else:
+                print(" ", end=" ")
+        print()
+elif answer == "e":
+    for i in range(5):
+        for j in range(5):
+            if (j >= i and i + j >= 5 - 1) or (j <= i and i + j <= 5 - 1):
+                print("*", end=" ")
+            else:
+                print(" ", end=" ")
+        print()
+elif answer == "d":
+    for i in range(5):
+        for j in range(5):
+            if (j >= i and i + j <= 5 - 1) or (j <= i and i + j >= 5 - 1):
+                print("*", end=" ")
+            else:
+                print(" ", end=" ")
+        print()
+
+
+
+
 
 
 
