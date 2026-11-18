@@ -37,15 +37,21 @@ print(sum_and_avg([1,2,3,4]))
 
 
 def pos_neg_even_odd(list):
-    i = 0
+    a = 0
+    b = 0
+    c = 0
+    d = 0
     for i in list:
-        if i % 2 == 0:
-            print(f"{i} is even")
-        if i % 2 == 1:
-            print(f"{i} is odd")
-        if i < 0:
-            print(f"{i} is negative")
         if i > 0:
-            print(f"{i} is positive")
+            a += i
+        if i < 0:
+            b += i
+        if i%2 == 0:
+            c += 1
+        if i%2 != 0:
+            d += 1
+    return a,b,c,d
+
+
 
 print(pos_neg_even_odd([4,8,0,-7]))
