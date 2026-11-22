@@ -55,3 +55,32 @@ def pos_neg_even_odd(list):
 
 
 print(pos_neg_even_odd([4,8,0,-7]))
+
+
+import calculator
+
+
+def factorial_list(list):
+    for i in range(len(list)):
+        list[i] = factorial = calculator.factorial(list[i])
+    return list
+
+print(factorial_list([1,2,3,4]))
+
+
+
+def fib_list(list):
+    for i in list:
+        if i in fib_list:
+            result += [i]
+
+
+
+print(fib_list([1,5,8,2]))
+
+
+
+
+
+
+
